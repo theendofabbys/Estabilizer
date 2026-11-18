@@ -1,13 +1,8 @@
-Ferramenta em bash que estabiliza um reverse shell já obtido: abre PTY real, define `TERM=xterm`,
-`stty sane` e o tamanho do terminal.
+Ferramenta em bash que estabiliza um reverse shell já obtido: abre PTY e etc.
 
-uso:
-chmod +x main.sh
-./main.sh
+uso na shell: wget https://raw.githubusercontent.com/theendofabbys/Estabilizer/refs/heads/main/main.sh ; chmod +x main.sh ; ./main.sh
 
-apos rodar, locamente:
-Ctrl+Z
-stty raw -echo; fg
+apos rodar, localmente: Ctrl+Z | stty raw -echo; fg
 
 
 
